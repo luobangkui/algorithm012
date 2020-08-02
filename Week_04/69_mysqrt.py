@@ -15,3 +15,5 @@ class Solution:
             else:
                 r = y - 1
         return
+
+# 牛顿迭代法
