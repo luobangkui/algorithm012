@@ -17,6 +17,10 @@
 
 [分饼干](https://github.com/luobangkui/algorithm012/edit/master/Week_04/455_findcontentChildren.py)
 
+[旋转排序数组最小值](https://github.com/luobangkui/algorithm012/edit/master/Week_04/153_findmin.py)
+
+[搜索二维矩阵](https://github.com/luobangkui/algorithm012/edit/master/Week_04/74_searchmatrix.py)
+
 题目还是过遍数，尤其是单词接龙的题目，看完高赞答案，直接学过来写，主要思想利用双向广度优先搜索。
 
 双向广度优先搜索，通常使用一个beginqueue, endqueue, begvisited, endvisited。
