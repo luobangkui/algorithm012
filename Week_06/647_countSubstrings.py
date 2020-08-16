@@ -1,4 +1,27 @@
 
+class Solution:
+    def countSubstrings(self, s: str) -> int:
+        # 动态规划方法
+        # dp[i][j] = dp[i-1][j-1] and s[i-1] == s[j-1]
+        n = len(s)
+        dp = [[False] * n for _ in range(n)]
+        for i in range(n):
+            dp[i][i] = True
+        count = n
+        for i in range(n-1, -1, -1):
+            for j in range(i+1,n):
+                if s[i] == s[j]:
+                    #
+                    if j-i == 1:
+                        dp[i][j] = True
+                    else:
+                        dp[i][j] = dp[i+1][j-1]
+                else:
+                    dp[i][j] = False
+                count += 1 if dp[i][j] else 0
+        return count
+
+
 
 # 方法1，暴力法，n^2 时间复杂度
 class Solution(object):
@@ -14,7 +37,7 @@ class Solution(object):
                 right += 1
         return ans
 
-#这T喵的是正常人理解的算法么。。。
+#manager算法
 class Solution2(object):
     def countSubstrings(self, S):
         def manachers(S):
