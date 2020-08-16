@@ -1,15 +1,18 @@
 学习笔记
 
 
-[最小路径和](https://github.com/luobangkui/algorithm012/edit/master/Week_06/64_minPathSum.py)
+[最小路径和](https://github.com/luobangkui/algorithm012/blob/master/Week_06/64_minPathSum.py)
 
-[解码方法](https://github.com/luobangkui/algorithm012/edit/master/Week_06/91_longestCommonSubsequence.py)
+[解码方法](https://github.com/luobangkui/algorithm012/blob/master/Week_06/91_longestCommonSubsequence.py)
 
-[最大正方形](https://github.com/luobangkui/algorithm012/edit/master/Week_06/221_maximalSquare.py)
+[最大正方形](https://github.com/luobangkui/algorithm012/blob/master/Week_06/221_maximalSquare.py)
 
-[任务调度器](https://github.com/luobangkui/algorithm012/edit/master/Week_06/621_leastInterval.py)
+[任务调度器](https://github.com/luobangkui/algorithm012/blob/master/Week_06/621_leastInterval.py)
 
-[回文子串](https://github.com/luobangkui/algorithm012/edit/master/Week_06/647_countSubstrings.py)
+[回文子串](https://github.com/luobangkui/algorithm012/blob/master/Week_06/647_countSubstrings.py)
+
+[最长有效括号](https://github.com/luobangkui/algorithm012/blob/master/Week_06/32_longestValidParentheses.py)
+
 
 
 感觉动态规划这一周要被折磨疯了，死在了6道股票题上面，作业都搞不过来了。。
