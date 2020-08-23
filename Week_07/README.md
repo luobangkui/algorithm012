@@ -1,4 +1,48 @@
-学习笔记
+## 学习笔记
+
+### 作业
+
+[括号生成](https://github.com/luobangkui/algorithm012/blob/master/Week_07/22_generateParenthesis.py)
+
+[单词接龙](https://github.com/luobangkui/algorithm012/blob/master/Week_07/127_ladderLength.py)
+
+[实现前缀树](https://github.com/luobangkui/algorithm012/blob/master/Week_07/208_Trie.py)
+
+[单词搜索II](https://github.com/luobangkui/algorithm012/blob/master/Week_07/212_findWords.py)
+
+[最小基因变化](https://github.com/luobangkui/algorithm012/blob/master/Week_07/433_minMutation.py)
+
+[朋友圈](https://github.com/luobangkui/algorithm012/blob/master/Week_07/547_findCircleNum.py)
+
+[岛屿数量](https://github.com/luobangkui/algorithm012/blob/master/Week_07/200_numIslands.py)
+
+[有效的数独](https://github.com/luobangkui/algorithm012/blob/master/Week_07/36_isValidSudoku.py)
+
+[N皇后](https://github.com/luobangkui/algorithm012/blob/master/Week_07/51_solveNQueens.py)
+
+[解数独](https://github.com/luobangkui/algorithm012/blob/master/Week_07/37_solveSudoku.py)
+
+
+
+<br><br><br>
+
+这一期的题目大部分是之前dfs和bfs里面做过的题目，但是这次做还是会卡住。
+
+主要是边界值条件，和细节的方面容易挖坑。导致半天想不出来是哪里的问题，可能代码基本写完了，但是差在某处细节导致结果不过。比如单词搜索这里，
+标记访问过的board[i][j]，自己提前改变board[i][j]值然后导致结果错误
+```
+        tmp = board[i][j]
+        # board[i][j] = '@' # return之后就不递归了，影响了board数组
+        if tmp not in node:
+            return
+        board[i][j] = '@'
+```
+
+还有一种情况是完全思路不对，比如被围绕的区域这道题目。这种只能参考题解了
+
+题目还是多做几遍，而且在细节的地方还多需要加强。 同时要学会课上之前说的自顶向下的编程方式
+
+
 
 
 

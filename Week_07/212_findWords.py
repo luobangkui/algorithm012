@@ -12,6 +12,7 @@ class Solution:
         # board[i][j] = '@' # return之后就不递归了，影响了board数组
         if tmp not in node:
             return
+        # 或者是使用一个visited集合来记录访问过的点
         board[i][j] = '@'
         node = node[tmp]
         for x, y in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
