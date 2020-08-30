@@ -18,8 +18,9 @@
 
 [有效的字母异位词](https://github.com/luobangkui/algorithm012/blob/master/Week_08/242_isAnagram.py)
 
-
 [翻转对(注意统计count j的下标不要越界)](https://github.com/luobangkui/algorithm012/blob/master/Week_08/493_reversePairs.py)
+
+[数组的相对排序](https://github.com/luobangkui/algorithm012/blob/master/Week_08/1112_relativeSortArray.py)
 
 
 ### 基础排序--选择排序
